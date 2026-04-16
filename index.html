@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Exhibition Page</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="exhibitWrap">
+      <div id="exhibit" class="exhibit" aria-label="Interactive exhibition"></div>
+    </div>
+
+    <!-- Layer modal -->
+    <div id="layerModal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="backdrop" data-close></div>
+      <div class="modalContent">
+        <div class="modalImageWrap">
+          <div class="glow">
+            <div id="modalCrop" class="cropBox">
+              <img id="modalImg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="modalText">
+          <button class="closeBtn" data-close aria-label="Close">×</button>
+          <h2 id="modalTitle"></h2>
+          <p id="modalP1"></p>
+          <p id="modalP2"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu modal -->
+    <div id="menuModal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="backdrop" data-close></div>
+      <div class="menuContent">
+        <button class="closeBtn closeBtnLight" data-close aria-label="Close">×</button>
+        <h2>Menu</h2>
+        <p id="menuP1"></p>
+        <p id="menuP2"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+{
+  "base": {
+    "width": 1436,
+    "height": 897,
+    "totalHeight": 1024,
+    "image": "./assets/base.png"
+  },
+  "layers": [
+    {
+      "id": "collage",
+      "name": "Collage",
+      "image": "./imports/Desktop1/272b4b398b0726005b62a6296695f3fc0d5b97c0.png",
+      "left": 957,
+      "top": 244,
+      "width": 459,
+      "height": 684,
+      "imgStyle": {
+        "height": "131.58%",
+        "left": "-208.93%",
+        "top": "-26.61%",
+        "width": "313.73%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 405: Replace with collage description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 408: Replace with collage description paragraph 2"
+      }
+    },
+    {
+      "id": "nyc",
+      "name": "NYC",
+      "image": "./imports/Desktop1/4b3ce6971ae068f9457bdc7f745364d52c017085.png",
+      "left": 267,
+      "top": 452,
+      "width": 396,
+      "height": 437,
+      "imgStyle": {
+        "height": "204.35%",
+        "left": "-66.77%",
+        "top": "-87.64%",
+        "width": "360.81%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 411: Replace with nyc description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 414: Replace with nyc description paragraph 2"
+      }
+    },
+    {
+      "id": "pride",
+      "name": "Pride",
+      "image": "./imports/Desktop1/cb712304a415f969fa2fff3b7fb02becbcf4dc81.png",
+      "left": 47,
+      "top": 185,
+      "width": 1369,
+      "height": 457,
+      "imgStyle": {
+        "height": "196.72%",
+        "left": "-3.45%",
+        "top": "-26.26%",
+        "width": "105.07%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 417: Replace with pride description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 420: Replace with pride description paragraph 2"
+      }
+    },
+    {
+      "id": "kaneki",
+      "name": "Kaneki",
+      "image": "./imports/Desktop1/cceeb98c6a5cdc65d3999c23a1d6f6986b113fc2.png",
+      "left": 67,
+      "top": 395,
+      "width": 235,
+      "height": 395,
+      "imgStyle": {
+        "height": "227.59%",
+        "left": "-28.6%",
+        "top": "-83.8%",
+        "width": "612.09%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 423: Replace with kaneki description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 426: Replace with kaneki description paragraph 2"
+      }
+    },
+    {
+      "id": "promise",
+      "name": "Promise",
+      "image": "./imports/Desktop1/639d3e9b45a0f1c7857f04fdc7fa184527eff63c.png",
+      "left": 625,
+      "top": 721,
+      "width": 207,
+      "height": 122,
+      "imgStyle": {
+        "height": "734.63%",
+        "left": "-301.45%",
+        "top": "-536.17%",
+        "width": "692.75%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 429: Replace with promise description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 432: Replace with promise description paragraph 2"
+      }
+    },
+    {
+      "id": "ohio",
+      "name": "Ohio",
+      "image": "./imports/Desktop1/fc01d04773acc6dbf0e32ed9e928a67f2ca4f13b.png",
+      "left": 814,
+      "top": 391,
+      "width": 150,
+      "height": 447,
+      "imgStyle": {
+        "height": "200.67%",
+        "left": "-542.73%",
+        "top": "-72.71%",
+        "width": "956.8%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 435: Replace with ohio description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 438: Replace with ohio description paragraph 2"
+      }
+    },
+    {
+      "id": "contraposto",
+      "name": "Contraposto",
+      "image": "./imports/Desktop1/5f99e7dc81be38e74f07f27b6e906ffdb00304ed.png",
+      "left": 353,
+      "top": 682,
+      "width": 114,
+      "height": 216,
+      "imgStyle": {
+        "height": "416.67%",
+        "left": "-309.65%",
+        "top": "-286.57%",
+        "width": "1263.16%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 441: Replace with contraposto description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 444: Replace with contraposto description paragraph 2"
+      }
+    },
+    {
+      "id": "mlp",
+      "name": "MLP",
+      "image": "./imports/Desktop1/31e438a6123b02c680b2981a9e2f76a8148f0c03.png",
+      "left": 46.91,
+      "top": 533.94,
+      "width": 379.169,
+      "height": 423.805,
+      "imgStyle": {
+        "height": "212.36%",
+        "left": "-12.44%",
+        "top": "-110.9%",
+        "width": "379.78%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 447: Replace with mlp description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 450: Replace with mlp description paragraph 2"
+      }
+    },
+    {
+      "id": "selfPortrait",
+      "name": "Self Portrait",
+      "image": "./imports/Desktop1/cd7355d2f5f191035598027a2392e5b0914c7264.png",
+      "left": 644,
+      "top": 465,
+      "width": 192,
+      "height": 269,
+      "imgStyle": {
+        "height": "333.88%",
+        "left": "-334.9%",
+        "top": "-149.47%",
+        "width": "748.44%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 453: Replace with selfPortrait description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 456: Replace with selfPortrait description paragraph 2"
+      }
+    },
+    {
+      "id": "phos",
+      "name": "Phos",
+      "image": "./imports/Desktop1/557b6afb655bad9bbf800f62d038389cb96f771b.png",
+      "left": 545.75,
+      "top": 746.53,
+      "width": 236.676,
+      "height": 181.938,
+      "imgStyle": {
+        "height": "494.67%",
+        "left": "-231.24%",
+        "top": "-375.39%",
+        "width": "608.43%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 459: Replace with phos description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 462: Replace with phos description paragraph 2"
+      }
+    },
+    {
+      "id": "horse",
+      "name": "Horse",
+      "image": "./imports/Desktop1/8dcaaa5e468ec0658e143c9e4c8798995a681125.png",
+      "left": 750.44,
+      "top": 684.81,
+      "width": 177.123,
+      "height": 194.627,
+      "imgStyle": {
+        "height": "461.14%",
+        "left": "-423.93%",
+        "top": "-318.72%",
+        "width": "810.74%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 465: Replace with horse description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 468: Replace with horse description paragraph 2"
+      }
+    },
+    {
+      "id": "papers",
+      "name": "Papers",
+      "image": "./imports/Desktop1/dd41fed14af7a4511295069119684e306c71f0ef.png",
+      "left": 663.84,
+      "top": 787.18,
+      "width": 228.3,
+      "height": 167.591,
+      "imgStyle": {
+        "height": "536.42%",
+        "left": "-291.76%",
+        "top": "-431.8%",
+        "width": "630.05%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 471: Replace with papers description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 474: Replace with papers description paragraph 2"
+      }
+    },
+    {
+      "id": "bojackBalloons",
+      "name": "Bojack Balloons",
+      "image": "./imports/Desktop1/f5e3dc7432f37d1ebc6bbf01857df484c33278de.png",
+      "left": 533,
+      "top": 672,
+      "width": 120,
+      "height": 115,
+      "imgStyle": {
+        "height": "780%",
+        "left": "-445.08%",
+        "top": "-527.83%",
+        "width": "1196%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 477: Replace with bojackBalloons description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 480: Replace with bojackBalloons description paragraph 2"
+      }
+    },
+    {
+      "id": "yuzu",
+      "name": "Yuzu",
+      "image": "./imports/Desktop1/42dba661675ddfdf6ed02818342e6132674e2c80.png",
+      "left": 149,
+      "top": 89,
+      "width": 989,
+      "height": 385,
+      "imgStyle": {
+        "height": "233.28%",
+        "left": "-14.96%",
+        "top": "-5.73%",
+        "width": "145.3%"
+      },
+      "description": {
+        "p1": "/src/app/App.tsx - Line 483: Replace with yuzu description paragraph 1",
+        "p2": "/src/app/App.tsx - Line 486: Replace with yuzu description paragraph 2"
+      }
+    }
+  ],
+  "menu": {
+    "p1": "/src/app/App.tsx - Line 372: Replace with menu paragraph 1",
+    "p2": "/src/app/App.tsx - Line 375: Replace with menu paragraph 2"
+  }
+}
