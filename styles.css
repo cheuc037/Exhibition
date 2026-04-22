@@ -102,7 +102,7 @@ body{
 .layer{
   position:absolute;
   cursor:pointer;
-  transition: transform .2s ease, filter .2s ease;
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .layer:hover{ transform: scale(1.05); }
 .layerInner{

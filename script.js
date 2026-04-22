@@ -15,6 +15,7 @@ const modalCrop = document.getElementById("modalCrop");
 
 const menuP1 = document.getElementById("menuP1");
 const menuP2 = document.getElementById("menuP2");
+const menuP3 = document.getElementById("menuP3");
 
 let data = null;
 let selectedLayerId = null;
@@ -77,6 +78,7 @@ function closeLayerModal() {
 function openMenu() {
   menuP1.textContent = data?.menu?.p1 || "";
   menuP2.textContent = data?.menu?.p2 || "";
+  menuP3.textContent = data?.menu?.p3 || "";
   setHidden(menuModal, false);
   blurBackground(true);
 }
