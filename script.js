@@ -92,14 +92,67 @@ function getEnlargedSize(layer) {
   let scaleFactor = 1.5;
   let maxSize = 600;
 
+  // Scale up for larger displays
+  const is2K = window.innerWidth >= 2000;
+  const is4K = window.innerWidth >= 3200;
+
+  if (is4K) {
+    scaleFactor *= 2.2;
+    maxSize = 1800;
+  } else if (is2K) {
+    scaleFactor *= 1.67;
+    maxSize = 1200;
+  }
+
   if (layer.id === "yuzu") {
     scaleFactor = 0.833;
     maxSize = 1000;
+    if (is4K) {
+      scaleFactor *= 2.2;
+      maxSize = 2400;
+    } else if (is2K) {
+      scaleFactor *= 1.67;
+      maxSize = 1800;
+    }
   } else if (layer.id === "pride") {
     scaleFactor = 0.5;
     maxSize = 1000;
+    if (is4K) {
+      scaleFactor *= 2.2;
+      maxSize = 2400;
+    } else if (is2K) {
+      scaleFactor *= 1.67;
+      maxSize = 1800;
+    }
   } else if (layer.id === "collage") {
     scaleFactor = 0.8;
+    if (is4K) {
+      scaleFactor *= 2.86; // 2.2 * 1.3 (30% bigger)
+      maxSize = 2340; // 1800 * 1.3
+    } else if (is2K) {
+      scaleFactor *= 1.67;
+      maxSize = 1200;
+    }
+  } else if (layer.id === "bojackBalloons") {
+    if (is4K) {
+      scaleFactor *= 2.0; // Reduced size for 4K
+      maxSize = 1600;
+    }
+  } else if (layer.id === "phos") {
+    if (is4K) {
+      scaleFactor *= 1.144; // 60% smaller
+      maxSize = 936;
+    }
+  } else if (layer.id === "promise") {
+    if (is4K) {
+      scaleFactor *= 2.0; // Reduced size for 4K
+      maxSize = 1600;
+    }
+  } else if (layer.id === "horse") {
+    if (is4K) {
+      scaleFactor *= 1.4; // 30% smaller
+      maxSize = 1120;
+    }
   }
   return {
     width: Math.min(layer.width * scaleFactor, maxSize),
